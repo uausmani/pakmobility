@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
@@ -57,7 +58,7 @@ const Hero = () => {
         
         <div className="flex justify-center my-8">
           <img 
-            src="/lovable-uploads/707f413b-b773-4cae-b84b-ade4b910542e.png" 
+            src="/lovable-uploads/9ec75535-8772-4661-98b0-be1297622d2d.png" 
             alt="Zero Emission" 
             className="h-20 md:h-24 w-auto animate-fade-up" 
             style={{ animationDelay: "150ms" }}

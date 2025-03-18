@@ -20,9 +20,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Poppins', 'sans-serif'],
-				display: ['Poppins', 'sans-serif'],
-				logo: ['Chunk Five', 'serif'],
+				sans: ['Montserrat', 'sans-serif'],
+				display: ['Montserrat', 'sans-serif'],
+				logo: ['Montserrat', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -69,7 +69,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				pakmobility: {
-					blue: '#4472C4',
+					blue: '#00AEEF',
 					navy: '#44546A',
 					green: '#70AD47',
 					light: '#F5F8FA',
