@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,16 +15,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 196 100% 45%;
+    --primary: 215 71% 52%;  /* #4472C4 */
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 217 91% 23%;
+    --secondary: 215 34% 35%;  /* #44546A */
     --secondary-foreground: 210 40% 98%;
 
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
-    --accent: 210 40% 96%;
+    --accent: 120 42% 48%;  /* #70AD47 */
     --accent-foreground: 222 47% 11%;
 
     --destructive: 0 84% 60%;
@@ -137,4 +136,9 @@
 .section-scroll-reveal > *.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Add styles for the logo to remove the background */
+.logo-no-bg {
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }

@@ -20,8 +20,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				display: ['SF Pro Display', 'Inter', 'sans-serif'],
+				sans: ['Poppins', 'sans-serif'],
+				display: ['Poppins', 'sans-serif'],
+				logo: ['Chunk Five', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -68,8 +69,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				pakmobility: {
-					blue: '#00A7E5',
-					navy: '#1E2D55',
+					blue: '#4472C4',
+					navy: '#44546A',
+					green: '#70AD47',
 					light: '#F5F8FA',
 					gray: '#64748B',
 				}

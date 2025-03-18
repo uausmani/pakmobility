@@ -47,14 +47,23 @@ const Hero = () => {
           <img 
             src="/lovable-uploads/681bb941-d00f-4733-a8cb-6b680392b7a5.png" 
             alt="Pak Mobility Logo" 
-            className="h-16 md:h-20 w-auto"
+            className="h-16 md:h-20 w-auto logo-no-bg"
           />
         </div>
         
         <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center mb-6 animate-fade-up text-pakmobility-navy">
-          Revolutionizing Pakistan's <br />
-          <span className="text-pakmobility-blue">EV Mobility</span> Landscape
+          <span className="text-pakmobility-blue">Enabling</span> the Electric Vehicle <br />
+          Ecosystem in Pakistan
         </h1>
+        
+        <div className="flex justify-center my-8">
+          <img 
+            src="/lovable-uploads/707f413b-b773-4cae-b84b-ade4b910542e.png" 
+            alt="Zero Emission" 
+            className="h-20 md:h-24 w-auto animate-fade-up" 
+            style={{ animationDelay: "150ms" }}
+          />
+        </div>
         
         <p className="text-pakmobility-gray text-lg md:text-xl text-center max-w-3xl mb-10 animate-fade-up" style={{ animationDelay: "200ms" }}>
           Providing innovative financing, insurance, and technology solutions for the electric vehicle industry, empowering businesses across Pakistan.

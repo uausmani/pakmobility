@@ -41,7 +41,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/ea886e63-97a0-48f1-be54-b308905bd273.png" 
             alt="Pak Mobility Logo" 
-            className="h-10 w-auto animate-fade-in" 
+            className="h-10 w-auto animate-fade-in logo-no-bg" 
           />
         </a>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
           <a 
             href="#contact" 
             className={cn(
-              "px-5 py-2.5 rounded-md bg-pakmobility-blue text-white",
+              "px-5 py-2.5 rounded-md bg-pakmobility-blue text-white font-medium",
               "hover:shadow-btn transition-all-ease"
             )}
           >
