@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2">
           <img 
-            src="/lovable-uploads/ea886e63-97a0-48f1-be54-b308905bd273.png" 
+            src="/lovable-uploads/51dfa9fa-a996-4d09-9178-388eeb0438c4.png" 
             alt="Pak Mobility Logo" 
             className="h-10 w-auto animate-fade-in logo-no-bg" 
           />

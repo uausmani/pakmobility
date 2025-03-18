@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
@@ -45,14 +44,14 @@ const Hero = () => {
       >
         <div className="mb-6 animate-scale-up">
           <img 
-            src="/lovable-uploads/681bb941-d00f-4733-a8cb-6b680392b7a5.png" 
+            src="/lovable-uploads/51dfa9fa-a996-4d09-9178-388eeb0438c4.png" 
             alt="Pak Mobility Logo" 
             className="h-16 md:h-20 w-auto logo-no-bg"
           />
         </div>
         
         <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center mb-6 animate-fade-up text-pakmobility-navy">
-          <span className="text-pakmobility-blue">Enabling</span> the Electric Vehicle <br />
+          <span className="text-pakmobility-blue">Enabling</span> Electric Vehicle <br />
           Ecosystem in Pakistan
         </h1>
         
