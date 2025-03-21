@@ -51,7 +51,7 @@ const Hero = () => {
           />
         </div>
         
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif text-center mb-6 animate-fade-up text-pakmobility-navy">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center mb-6 animate-fade-up text-pakmobility-navy">
           <span className="text-pakmobility-blue">Enabling</span> Electric Vehicle <br />
           Ecosystem in Pakistan
         </h1>
@@ -65,7 +65,7 @@ const Hero = () => {
           />
         </div>
         
-        <p className="text-pakmobility-gray text-lg md:text-xl font-serif text-center max-w-3xl mb-10 animate-fade-up" style={{ animationDelay: "200ms" }}>
+        <p className="text-pakmobility-gray text-lg md:text-xl text-center max-w-3xl mb-10 animate-fade-up" style={{ animationDelay: "200ms" }}>
           Providing innovative financing, insurance, and technology solutions for the electric vehicle industry, empowering businesses across Pakistan.
         </p>
         
