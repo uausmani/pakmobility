@@ -61,17 +61,17 @@ const Contact = () => {
     {
       icon: <Phone className="h-5 w-5 text-pakmobility-blue" />,
       label: "Phone",
-      value: "+92 123 456 7890"
+      value: "+92 300 446 7041"
     },
     {
       icon: <Mail className="h-5 w-5 text-pakmobility-blue" />,
       label: "Email",
-      value: "info@pakmobility.com"
+      value: "contact@rockvntrs.com"
     },
     {
       icon: <MapPin className="h-5 w-5 text-pakmobility-blue" />,
       label: "Address",
-      value: "Islamabad, Pakistan"
+      value: "Lahore, Pakistan"
     }
   ];
 
