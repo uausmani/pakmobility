@@ -40,21 +40,38 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Simulate form submission
-    setTimeout(() => {
-      toast({
-        title: "Message sent successfully!",
-        description: "We'll get back to you as soon as possible.",
+    try {
+      const response = await fetch('https://formspree.io/f/xvzdgzoa', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
       });
-      setFormSubmitted(true);
-      setFormData({ name: '', email: '', company: '', message: '' });
-      
-      // Reset form submitted state after a delay
-      setTimeout(() => setFormSubmitted(false), 5000);
-    }, 1000);
+
+      if (response.ok) {
+        toast({
+          title: "Message sent successfully!",
+          description: "We'll get back to you as soon as possible.",
+        });
+        setFormSubmitted(true);
+        setFormData({ name: '', email: '', company: '', message: '' });
+        setTimeout(() => setFormSubmitted(false), 5000);
+      } else {
+        toast({
+          title: "Failed to send message",
+          description: "Please try again later.",
+          variant: "destructive",
+        });
+      }
+    } catch {
+      toast({
+        title: "Failed to send message",
+        description: "Please try again later.",
+        variant: "destructive",
+      });
+    }
   };
 
   const contactInfo = [
