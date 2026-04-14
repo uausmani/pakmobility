@@ -112,7 +112,6 @@ const About = () => {
                    width={1000}
                    height={562}
                  />
-                />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-pakmobility-navy/40 to-transparent"></div>
               <div className="relative z-10 text-white text-center p-6">
