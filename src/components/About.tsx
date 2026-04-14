@@ -1,6 +1,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Shield, Zap, TrendingUp, Users } from "lucide-react";
+import evAboutImage from "@/assets/ev-about.jpg";
 
 const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -103,10 +104,14 @@ const About = () => {
           <div className="reveal-item delay-[600ms] relative">
             <div className="aspect-video bg-gradient-to-r from-pakmobility-blue/10 to-pakmobility-blue/5 rounded-xl overflow-hidden flex items-center justify-center">
               <div className="absolute inset-0 flex items-center justify-center">
-                <img 
-                  src="https://images.unsplash.com/photo-1631898039214-b31a0bbf963d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-                  alt="Electric vehicle" 
-                  className="object-cover w-full h-full rounded-xl"
+                 <img 
+                   src={evAboutImage}
+                   alt="Electric vehicle" 
+                   className="object-cover w-full h-full rounded-xl"
+                   loading="lazy"
+                   width={1000}
+                   height={562}
+                 />
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-pakmobility-navy/40 to-transparent"></div>
