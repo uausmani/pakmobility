@@ -160,6 +160,8 @@ const Contact = () => {
                   <input
                     type="text"
                     name="_gotcha"
+                    value={formData._gotcha}
+                    onChange={handleChange}
                     style={{ display: 'none' }}
                     tabIndex={-1}
                     autoComplete="off"
