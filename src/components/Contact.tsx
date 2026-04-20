@@ -57,7 +57,7 @@ const Contact = () => {
           description: "We'll get back to you as soon as possible.",
         });
         setFormSubmitted(true);
-        setFormData({ name: '', email: '', company: '', message: '' });
+        setFormData({ name: '', email: '', company: '', message: '', _gotcha: '' });
         setTimeout(() => setFormSubmitted(false), 5000);
       } else {
         toast({
