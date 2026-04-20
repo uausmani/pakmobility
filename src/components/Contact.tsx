@@ -12,7 +12,8 @@ const Contact = () => {
     name: '',
     email: '',
     company: '',
-    message: ''
+    message: '',
+    _gotcha: ''
   });
   
   useEffect(() => {
@@ -56,7 +57,7 @@ const Contact = () => {
           description: "We'll get back to you as soon as possible.",
         });
         setFormSubmitted(true);
-        setFormData({ name: '', email: '', company: '', message: '' });
+        setFormData({ name: '', email: '', company: '', message: '', _gotcha: '' });
         setTimeout(() => setFormSubmitted(false), 5000);
       } else {
         toast({
@@ -156,6 +157,16 @@ const Contact = () => {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
+                  <input
+                    type="text"
+                    name="_gotcha"
+                    value={formData._gotcha}
+                    onChange={handleChange}
+                    style={{ display: 'none' }}
+                    tabIndex={-1}
+                    autoComplete="off"
+                    aria-hidden="true"
+                  />
                   <div className="grid sm:grid-cols-2 gap-5">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-pakmobility-gray mb-1">
