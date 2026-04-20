@@ -12,7 +12,8 @@ const Contact = () => {
     name: '',
     email: '',
     company: '',
-    message: ''
+    message: '',
+    _gotcha: ''
   });
   
   useEffect(() => {
